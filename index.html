@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmim Coimbra - Desenvolvedora Frontend</title>
+
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/globals.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/sections/header.css">
+    <link rel="stylesheet" href="./src/css/sections/home.css">
+    <link rel="stylesheet" href="./src/css/sections/sobre.css">
+    <link rel="stylesheet" href="./src/css/sections/habilidades.css">
+    <link rel="stylesheet" href="./src/css/sections/projetos.css">
+    <link rel="stylesheet" href="./src/css/sections/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container row justify-content-between align-items-center">
+            <h1 class="logo row justify-content-center align-items-center">YC</h1>
+            <nav>
+                <input id="menu-hamburguer" type="checkbox">
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+                <ul class="row">
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Meus projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container row full-screen align-items-center">
+            <div class="texto-home">
+                <p>Olá 🤗,</p>
+                <h1>Sou Yasmim Coimbra</h1>
+                <h2>Desenvolvedora Frontend</h2>
+
+                <ul class="redes-sociais row">
+                    <li class="outer-shadow row justify-content-center align-items-center linkedin"><a href="https://www.linkedin.com/in/yasmim-coimbra/" title="Ir para o LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="outer-shadow row justify-content-center align-items-center wpp"><a href="https://wa.me/5582991596006" title="Enviar Mensagem no WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    <li class="outer-shadow row justify-content-center align-items-center github"><a href="https://github.com/Yasmim-Coimbra" title="Ir para o GitHub" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="outer-shadow row justify-content-center align-items-center insta"><a href="https://instagram.com/ymdscoimbra" title="Ir para o Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="img-home">
+                <div class="img-box inner-shadow">
+                    <img src="./src/images/doggo-placeholder.png" alt="foto do perfil da Yasmim">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-mim section" id="sobre-mim">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="imagem-sobre-mim">
+                    <div class="img-box inner-shadow">
+                        <img src="https://placecats.com/460/460" alt="foto sobre mim" class="outer-shadow">
+                    </div>
+                </div>
+                <div class="informacoes-sobre-mim">
+                    <p>
+                        <strong>Olá! Me chamo Yasmim Coimbra e sou um Desenvolvedora Frontend em formação!</strong>
+                        Gosto muito da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as
+                        habilidades que adquiri e as que continuo adquirindo nessa jornada.
+                    </p>
+
+                    <p>
+                        Estou sempre me desafiando com novos projetos e tecnologias, além de participar de comunidades
+                        de programação, buscando feedbacks e trocas mútuas de aprendizado com outros desenvolvedores. 😁
+                    </p>
+
+                    <p>
+                        Paralelamente, também sou fã do universo, de joguinhos bobos, filmes de ação, e muita música. 🤍
+                        🫧
+                    </p>
+
+                    <div class="botoes">
+                        <a target="_blank" href="./src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Habilidades</h2>
+                </div>
+            </div>
+
+            <div class="container-habilidades row justify-content-center">
+                <div class="informacoes javascript">
+                    <div class="logo">
+                        <i class="devicon devicon-javascript-plain"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript é uma linguagem de programação utilizada para adicionar interatividade às páginas web, criando interações dinâmicas em sites, aplicativos e jogos. Além de trabalhar com experiência do usuário, o JavaScript também está presente na parte oculta do desenvolvimento, manipulando dados e estabelecendo comunicação com servidores!</p>
+                </div>
+
+                <div class="informacoes css">
+                    <div class="logo">
+                        <i class="devicon devicon-css3-plain-wordmark"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para personalizar a aparência de páginas web. Ela define cores, fontes, efeitos visuais, responsividade (habilidade do site se adaptar a qualquer tamanho de tela, como esse portfólio que está acessando 😉) e muito mais!</p>
+                </div>
+
+                <div class="informacoes git">
+                    <div class="logo">
+                        <i class="devicon devicon-git-plain"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <p>O Git é um sistema de controle de versão, ou seja, ele nos permite ter uma ou mais versões do mesmo código! Legal, né? Ele traz várias vantagens imensuráveis, mas uma das principais é a maior segurança, organização e desempenho no trabalho, especialmente em equipe, devido seu sistema completamente distribuído.</p>
+                </div>
+
+                <div class="informacoes github">
+                    <div class="logo">
+                        <i class="devicon devicon-github-original"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>O GitHub é uma plataforma web onde conseguimos colocar projetos que estão versionados usando o Git. Nele Serviço onde podemos criar projetos, dentro de repositórios, e compartilhar isso com outras pessoas, podendo ser open source (todo mundo consegue ver e/ou modificar seu código) ou privado. É uma rede social para programadores!</p>
+                </div>
+
+                <div class="informacoes html">
+                    <div class="logo">
+                        <i class="devicon devicon-html5-plain-wordmark"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>O HTML é uma linguagem de marcação que define a estrutura e o conteúdo de um site, sendo considerado seu "esqueleto". Suas principais funções são a criação de estrutura, organização de conteúdo e definição de layout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Meus projetos</h2>
+                </div>
+            </div>
+
+            <div class="container-projetos container">
+                <div class="projeto">
+                    <img src="./src/images/landing-page-agencia-preview.jpeg" alt="Landing Page">
+                    <h3>Landing Page</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML e CSS, com foco em layout agradável de fácil navegação para o usuário.</p>
+                        <a href="https://yasmim-coimbra.github.io/landing-page-agencia/" target="_blank">🔗 Clique para Ver o Projeto na Web</a>
+                        <a href="https://github.com/Yasmim-Coimbra/landing-page-agencia" target="_blank">🔗 Clique para Ver o Código no GitHub</a>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="./src/images/pokedev-preview.jpeg" alt="Pokedevs">
+                    <h3>Pokedevs</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript, com foco em interatividade e layout colorido.
+                        </p>
+                        <a href="https://yasmim-coimbra.github.io/projeto-pokedevs/" target="_blank">🔗 Clique para Ver o Projeto na Web</a>
+                        <a href="https://github.com/Yasmim-Coimbra/projeto-pokedevs" target="_blank">🔗 Clique para Ver o Código no GitHub</a>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="./src/images/intro-section-with-dropdown-navigation-preview.jpeg" alt="Intro Section with Dropdown Navigation">
+                    <h3>Seção Inicial com Navegação Dropdown</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML e CSS, com foco na navegaçào dropdown e a responsividade do layout.
+                        </p>
+                        <a href="https://yasmim-coimbra.github.io/intro-section-with-dropdown-navigation/" target="_blank">🔗 Clique para Ver o Projeto na Web</a>
+                        <a href="https://github.com/Yasmim-Coimbra/intro-section-with-dropdown-navigation" target="_blank">🔗 Clique para Ver o Código no GitHub</a>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <img src="./src/images/fylo-landing-page-with-dark-theme-and-features-grids-preview.png" alt="Fylo Landing Page With Dark Theme">
+                    <h3>Fylo Landing Page Dark Theme</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML e CSS, com foco em ser uma página multi-section responsiva.</p>
+                        <a href="https://yasmim-coimbra.github.io/fylo-landing-page-with-dark-theme-and-features-grids/" target="_blank">🔗 Clique para Ver o Projeto na Web</a>
+                        <a href="https://github.com/Yasmim-Coimbra/fylo-landing-page-with-dark-theme-and-features-grid" target="_blank">🔗 Clique para Ver o Código no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Me envie uma mensagem!</h2>
+            <ul class="redes-sociais row justify-content-center">
+                <li class="outer-shadow row justify-content-center align-items-center linkedin"><a href="https://www.linkedin.com/in/yasmim-coimbra/" title="Ir para o LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="outer-shadow row justify-content-center align-items-center wpp"><a href="https://wa.me/5582991596006" title="Enviar Mensagem no WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li class="outer-shadow row justify-content-center align-items-center github"><a href="https://github.com/Yasmim-Coimbra" title="Ir para o GitHub" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="outer-shadow row justify-content-center align-items-center insta"><a href="https://instagram.com/ymdscoimbra" title="Ir para o Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

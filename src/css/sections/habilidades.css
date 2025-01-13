@@ -1,0 +1,52 @@
+.habilidades .container-habilidades {    
+    text-align: center;
+}
+
+.habilidades .container-habilidades .informacoes{
+    max-width: 35rem;
+    padding: 4rem 2rem;    
+}
+
+.container-habilidades .javascript i {
+    color: hsl(53, 93%, 56%);
+}
+
+.container-habilidades .css i {
+    color: hsl(210, 100%, 73%);
+}
+
+.container-habilidades .html i {
+    color: hsl(18, 87%, 57%);
+}
+
+.container-habilidades .git i {
+    color: hsl(9, 87%, 59%);
+}
+
+.container-habilidades .github i {
+    color: #000;
+}
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 2rem;      
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 25px;
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+}
+
+.habilidades .container-habilidades .informacoes p:hover {
+    scale: 1.12;
+}
+
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 8rem;
+}
