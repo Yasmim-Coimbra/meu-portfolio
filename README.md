@@ -24,4 +24,4 @@ Esse projeto foi feito com muito carinho a fim de me apresentar como desenvolved
 
 ### Mobile
 
-![Preview do Portfólio](./src/design/desktop-preview.gif)
+![Preview do Portfólio](./src/design/mobile-preview.gif)
