@@ -101,13 +101,18 @@
     .header {
         padding: var(--mobile-padding);
     }
-} 
+}
 
 @media(max-width: 900px) {
     .header .menu {
         display: block;
     }
 
+    .header nav input:checked + label,
+    .header nav input:checked ~ ul {
+        background-color: var(--cor-fundo-escuro);
+    }
+    
     .header nav input:checked~ul {
         display: flex;
         flex-direction: column;
@@ -115,7 +120,6 @@
     }
 
     .header nav {
-        background-color: var(--cor-fundo-escuro);
         position: absolute;
         top: 30px;
         right: 20px;
