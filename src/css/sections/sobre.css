@@ -20,12 +20,8 @@
     align-self: center; 
 }
 
-.sobre-mim .informacoes-sobre-mim .botoes {
-    margin-top: 50px;
-}
-
-.sobre-mim .informacoes-sobre-mim .botoes a {
-    font-weight: 600;
+.sobre-mim .informacoes-sobre-mim .botao {
+    margin-top: 20px;
 }
 
 .sobre-mim .informacoes-sobre-mim p {

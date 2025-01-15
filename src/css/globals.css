@@ -89,8 +89,11 @@ body {
 }
 
 .botao {
+    font-family: var(--fonte-primaria);
+    cursor: pointer;
     font-size: var(--fonte-grande);
-    padding: 10px 20px;
+    font-weight: 600;
+    padding: 8.75px 20px;
     border-radius: 20px;
     transition: all .3s ease;
     background-color: var(--cor-primaria);
