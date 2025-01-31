@@ -59,9 +59,6 @@ body {
 .redes-sociais li.github:hover a {
     color: hsl(43, 100%, 50%);
 }
-.redes-sociais li.insta:hover a {
-    color: hsl(315, 61%, 48%);
-}
 
 .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
